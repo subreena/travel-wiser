@@ -1,0 +1,51 @@
+#delete {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 50%;
+    background: #FFFFFF;
+    padding: 15px;
+    box-shadow: 0px 15px 30px rgba(83, 83, 83, 0.15);
+    width: 280px;
+    max-width: 80%;
+    height: 140px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   text-align: center;
+}
+@media screen and (max-width: 767px) {
+    #delete{
+        top: 40%;
+        left: 10%;
+    }
+}
+.delete-title {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #1A1A1A;
+}
+
+.popup-btn {
+    background: #F36888;
+    border-radius: 50px;
+    color: #fff;
+    font-weight: 500;
+    height: 30px;
+    border: none;
+    outline: none;
+    padding: 0px 20px;
+}
+
+.cancel-btn {
+    color: #626262;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+.popup-btn:focus .cancel-btn:focus, .primary-btn:focus{
+    border: none;
+    outline: none;
+}
