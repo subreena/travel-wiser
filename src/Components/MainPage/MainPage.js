@@ -109,16 +109,16 @@ const MainPage = () => {
                 </h2>
 
                 <Row className="mt-4 mb-4 position-relative">
-                    <div className="col-12 col-md-3">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <ClothesSection></ClothesSection>
                     </div>
-                    <div className="col-12 col-md-3">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <ClothesSection></ClothesSection>
                     </div>
-                    <div className="col-12 col-md-3">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <ClothesSection></ClothesSection>
                     </div>
-                    <div className="col-12 col-md-3">
+                    <div className="col-12 col-md-6 col-lg-3">
                         <ClothesSection></ClothesSection>
                     </div>
                 </Row>
